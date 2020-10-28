@@ -1,0 +1,316 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Book rdf:about="#item_243">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Collège des Bernardins − Essais</dc:title>
+                <dc:identifier>27</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Parole et Silence</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arnaud</foaf:surname>
+                        <foaf:givenName>Jean-Baptiste</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guggenheim</foaf:surname>
+                        <foaf:givenName>Antoine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <dc:date>2016</dc:date>
+        <dc:title>Selon ta parole. La prédication de Jean-Marie Lustiger</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_244">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>Cahiers de l'École Cathédrale</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Parole et Silence</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>von Balthasar</foaf:surname>
+                        <foaf:givenName>Hans Urs</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vidal</foaf:surname>
+                        <foaf:givenName>Maurice</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:date>2000</dc:date>
+        <dc:title>Qui est l'Église ?</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_245">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bruges</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Desclée de Brouwer</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gogol</foaf:surname>
+                        <foaf:givenName>Nicolas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Balalaef</foaf:surname>
+                        <foaf:givenName>Victor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:date>1952</dc:date>
+        <dc:title>Méditations sur la divine liturgie</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_246">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Cours, colloques, conférences</dc:title>
+                <dc:identifier>21</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Collège des Bernardins / éditions Lethielleux</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lemaître</foaf:surname>
+                        <foaf:givenName>Nicole</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:date>2011</dc:date>
+        <dc:title>Edmond Michelet un chrétien en politique</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_247">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:number>56</prism:number><dc:title>Biblica</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lack</foaf:surname>
+                        <foaf:givenName>Rémi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>1-12</bib:pages>
+        <dc:date>1975</dc:date>
+        <dc:title>Le sacrifice d'Isaac</dc:title>
+    </bib:Article>
+    <bib:BookSection rdf:about="#item_248">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Cours, colloques, conférences</dc:title>
+                        <dc:identifier>9</dc:identifier>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>Edith Stein : un chemin vers la joie</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Collège des Bernardins / Parole et Silence</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Binggeli</foaf:surname>
+                        <foaf:givenName>Sophie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>203-222</bib:pages>
+        <dc:date>2009</dc:date>
+        <dc:title>La proclamation d'Edith Stein co-patronne de l'Europe.</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="https://www.monde-diplomatique.fr/1997/12/RAMONET/">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Newspaper>
+               <dc:title>Le monde diplomatique</dc:title>
+            </bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramonet</foaf:surname>
+                        <foaf:givenName>Ignacio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.monde-diplomatique.fr/1997/12/RAMONET/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12/1997</dc:date>
+        <dcterms:dateSubmitted>1997-11-28</dcterms:dateSubmitted>
+        <dc:title>Désarmer les marchés</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="#item_250">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bruxelles</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Lessius</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wénin</foaf:surname>
+                        <foaf:givenName>André</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>1999</dc:date>
+        <dc:title>Isaac ou l'épreuve d'Abraham</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-2-204-10433-3">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Lire la Bible</dc:title>
+                <dc:identifier>190</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Les éditions du Cerf</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wénin</foaf:surname>
+                        <foaf:givenName>André</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bible</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Abraham</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Criticism, interpretation, etc</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-2-204-10433-3</dc:identifier>
+        <dc:date>2016</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>BS580.A3 W36 2016</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>OCLC: ocn961819228</dc:description>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:title>Abraham, ou, L'apprentissage du dépouillement : lecture de Genèse 11, 27-25, 18</dc:title>
+        <z:shortTitle>Abraham, ou, L'apprentissage du dépouillement</z:shortTitle>
+        <z:numPages>446</z:numPages>
+    </bib:Book>
+</rdf:RDF>
