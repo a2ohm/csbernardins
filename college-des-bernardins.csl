@@ -158,6 +158,10 @@
       </else>
     </choose>
   </macro>
+  <macro name="volume">
+    <label variable="volume" form="short" suffix="&#160;"/>
+    <text variable="volume"/>
+  </macro>
   <macro name="book-note">
     <group delimiter=", ">
       <text macro="contributors-note"/>
@@ -166,7 +170,7 @@
       <text macro="translator"/>
       <text variable="genre"/>
       <text variable="number"/>
-      <text variable="volume"/>
+      <text macro="volume"/>
       <text macro="collection-title"/>
       <text macro="collection-number"/>
       <text variable="publisher-place"/>
@@ -184,7 +188,7 @@
       <text macro="translator"/>
       <text variable="genre"/>
       <text variable="number"/>
-      <text variable="volume"/>
+      <text macro="volume"/>
       <text macro="collection-title"/>
       <text macro="collection-number"/>
       <text variable="publisher-place"/>
@@ -611,6 +615,7 @@
             <choose>
               <if disambiguate="true">
                 <text variable="title" form="short" font-style="italic"/>
+                <text macro="volume"/>
               </if>
               <else>
                 <group>
