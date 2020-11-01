@@ -313,4 +313,60 @@
         <z:shortTitle>Abraham, ou, L'apprentissage du dépouillement</z:shortTitle>
         <z:numPages>446</z:numPages>
     </bib:Book>
+    <bib:Book rdf:about="#item_253">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bruxelles</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Institut d'Études Théologique Éditions</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Radermakers</foaf:surname>
+                        <foaf:givenName>Jean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:volume>2</prism:volume>
+        <dc:date>1974</dc:date>
+        <z:numberOfVolumes>2</z:numberOfVolumes>
+        <dc:title>La bonne nouvelle de Jésus selon saint Marc</dc:title>
+        <z:numPages>445</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="#item_254">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bruxelles</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Institut d'Études Théologique Éditions</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Radermakers</foaf:surname>
+                        <foaf:givenName>Jean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:volume>1</prism:volume>
+        <dc:date>1974</dc:date>
+        <z:numberOfVolumes>2</z:numberOfVolumes>
+        <dc:title>La bonne nouvelle de Jésus selon saint Marc</dc:title>
+        <z:numPages>79</z:numPages>
+    </bib:Book>
 </rdf:RDF>
