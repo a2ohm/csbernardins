@@ -147,6 +147,10 @@
       <date-part name="year" form="long"/>
     </date>
   </macro>
+  <macro name="page-short">
+    <label variable="page" form="short" suffix="&#160;"/>
+    <text variable="page"/>
+  </macro>
   <macro name="title-chapter-special">
     <choose>
       <if variable="container-title">
@@ -215,10 +219,11 @@
       <text variable="publisher-place"/>
       <text variable="publisher"/>
       <text macro="issued-year"/>
-      <group>
+      <text macro="page-short"/>
+      <!--<group>
         <label variable="page" form="short" suffix="&#160;"/>
         <text variable="page"/>
-      </group>
+      </group>-->
     </group>
     <text macro="point-locators"/>
     <text macro="URL"/>
@@ -241,10 +246,11 @@
       <text variable="publisher-place"/>
       <text variable="publisher"/>
       <text macro="issued-year"/>
-      <group>
+      <text macro="page-short"/>
+      <!--<group>
         <label variable="page" form="short" suffix="&#160;"/>
         <text variable="page"/>
-      </group>
+      </group>-->
     </group>
     <text macro="point-locators"/>
     <text macro="URL"/>
@@ -286,7 +292,7 @@
             <number variable="issue"/>
           </group>
           <text variable="container-title" form="short" font-style="italic"/>
-          <text variable="page"/>
+          <text macro="page-short"/>
         </if>
         <else>
           <text term="in" text-case="lowercase" suffix=" "/>
@@ -294,8 +300,9 @@
           <group delimiter=" ">
             <number variable="issue" prefix="n°" suffix=","/>
             <text macro="issued-year" suffix=","/>
-            <label variable="page" form="short"/>
-            <text variable="page"/>
+            <text macro="page-short"/>
+            <!--<label variable="page" form="short"/>
+            <text variable="page"/>-->
           </group>
         </else>
       </choose>
@@ -315,7 +322,7 @@
             <number variable="issue"/>
           </group>
           <text variable="container-title" form="short" font-style="italic"/>
-          <text variable="page"/>
+          <text macro="page-short"/>
         </if>
         <else>
           <text term="in" text-case="lowercase" suffix=" "/>
@@ -323,8 +330,9 @@
           <group delimiter=" ">
             <number variable="issue" prefix="n°" suffix=","/>
             <text macro="issued-year" suffix=","/>
-            <label variable="page" form="short"/>
-            <text variable="page"/>
+            <text macro="page-short"/>
+            <!--<label variable="page" form="short"/>
+            <text variable="page"/>-->
           </group>
         </else>
       </choose>
@@ -349,7 +357,8 @@
       </group>
     </group>
     <text macro="issued" prefix=" (" suffix=")"/>
-    <text variable="page" prefix=", p.&#160;"/>
+    <text macro="page-short"/>
+    <!--<text variable="page" prefix=", p.&#160;"/>-->
     <text macro="point-locators"/>
     <text macro="URL"/>
   </macro>
@@ -371,7 +380,8 @@
       </group>
     </group>
     <text macro="issued" prefix=" (" suffix=")"/>
-    <text variable="page" prefix=", p.&#160;"/>
+    <text macro="page-short"/>
+    <!--<text variable="page" prefix=", p.&#160;"/>-->
     <text macro="URL"/>
   </macro>
   <macro name="legislation-note">
@@ -383,7 +393,8 @@
           <group delimiter=" ">
             <text variable="section"/>
             <text variable="container-title"/>
-            <text variable="page"/>
+            <text macro="page-short"/>
+            <!--<text variable="page"/>-->
             <text macro="issued-year" prefix=" (" suffix=")"/>
           </group>
           <text variable="number"/>
@@ -420,7 +431,8 @@
           <group delimiter=" ">
             <text variable="section"/>
             <text variable="container-title"/>
-            <text variable="page"/>
+            <text macro="page-short"/>
+            <!--<text variable="page"/>-->
             <text macro="issued-year" prefix=" (" suffix=")"/>
           </group>
           <text variable="number"/>
@@ -490,7 +502,7 @@
       <text variable="collection-number"/>
       <text variable="volume"/>
       <text macro="edition"/>
-      <text variable="page"/>
+      <text macro="page-short"/>
       <text variable="publisher-place"/>
       <text variable="publisher"/>
     </group>
@@ -508,7 +520,7 @@
       <text variable="collection-number"/>
       <text variable="volume"/>
       <text macro="edition"/>
-      <text variable="page"/>
+      <text macro="page-short"/>
       <text variable="publisher-place"/>
       <text variable="publisher"/>
     </group>
@@ -667,7 +679,8 @@
             <text variable="issue" prefix="n°"/>
             <text variable="volume"/>
             <text macro="issued"/>
-            <text variable="page" prefix="p.&#160;"/>
+            <text macro="page-short"/>
+            <!--<text variable="page" prefix="p.&#160;"/>-->
           </group>
           <text macro="point-locators"/>
           <text macro="URL"/>
@@ -724,7 +737,8 @@
             <text variable="issue" prefix="n°"/>
             <text variable="volume"/>
             <text macro="issued"/>
-            <text variable="page" prefix="p.&#160;"/>
+            <text macro="page-short"/>
+            <!--<text variable="page" prefix="p.&#160;"/>-->
           </group>
         </else>
       </choose>
