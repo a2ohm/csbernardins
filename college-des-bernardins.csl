@@ -496,7 +496,7 @@
       <text macro="contributors-note"/>
       <group>
         <text macro="title-chapter-special"/>
-        <text variable="container-title"/>
+        <text variable="container-title" font-style="italic"/>
       </group>
       <text macro="collection-title"/>
       <text variable="collection-number"/>
@@ -514,7 +514,7 @@
       <text macro="contributors"/>
       <group>
         <text macro="title-chapter-special"/>
-        <text variable="container-title"/>
+        <text variable="container-title" font-style="italic"/>
       </group>
       <text macro="collection-title"/>
       <text variable="collection-number"/>
