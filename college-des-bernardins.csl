@@ -690,7 +690,7 @@
   </citation>
   <bibliography hanging-indent="true" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
-      <key macro="sort-by-type"/>
+      <!--<key macro="sort-by-type"/>-->
       <key macro="sort-by-contributors"/>
       <key variable="issued"/>
       <key variable="title"/>
