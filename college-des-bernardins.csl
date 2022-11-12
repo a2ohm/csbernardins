@@ -536,7 +536,8 @@
             <text variable="locator"/>
           </if>
           <else-if locator="page" type="article-journal" match="all">
-            <text variable="locator" prefix=", "/>
+            <label variable="locator" prefix=", " suffix="&#160;" form="long"/>
+            <text variable="locator"/>
           </else-if>
           <else-if locator="paragraph">
             <label variable="locator" prefix=", " form="short"/>
