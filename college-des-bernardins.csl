@@ -227,7 +227,7 @@
       </group>-->
     </group>
     <text macro="point-locators"/>
-    <text macro="URL"/>
+    <!--<text macro="URL"/>-->
   </macro>
   <macro name="chapter-bib">
     <group delimiter=", ">
@@ -309,7 +309,7 @@
       </choose>
     </group>
     <text macro="point-locators"/>
-    <text macro="URL"/>
+    <!--<text macro="URL"/>-->
   </macro>
   <macro name="article-journal-bib">
     <group delimiter=" ">
@@ -361,7 +361,7 @@
     <text macro="page-short"/>
     <!--<text variable="page" prefix=", p.&#160;"/>-->
     <text macro="point-locators"/>
-    <text macro="URL"/>
+    <!--<text macro="URL"/>-->
   </macro>
   <macro name="article-newspaper-bib">
     <group delimiter=", ">
@@ -421,7 +421,7 @@
     <text macro="point-locators"/>
     <text variable="references" prefix=" (" suffix=")"/>
     <text variable="title-short" prefix=" [" suffix="]" font-style="italic"/>
-    <text macro="URL"/>
+    <!-- <text macro="URL"/> -->
   </macro>
   <macro name="legislation-bib">
     <group delimiter=", ">
@@ -475,7 +475,7 @@
       </group>
     </group>
     <text macro="point-locators"/>
-    <text macro="URL"/>
+    <!-- <text macro="URL"/> -->
   </macro>
   <macro name="entrydic-bib">
     <group delimiter=", ">
@@ -508,7 +508,7 @@
       <text variable="publisher"/>
     </group>
     <text macro="point-locators"/>
-    <text macro="URL"/>
+    <!-- <text macro="URL"/> -->
   </macro>
   <macro name="entryencyclo-bib">
     <group delimiter=", ">
