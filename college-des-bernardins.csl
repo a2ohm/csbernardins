@@ -140,12 +140,12 @@
     <date variable="issued" font-style="normal" font-weight="normal">
       <date-part name="day" suffix=" "/>
       <date-part name="month" suffix=" "/>
-      <date-part name="year"/>
+      <date-part name="year" suffix=" "/>
     </date>
   </macro>
   <macro name="issued-year">
     <date variable="issued">
-      <date-part name="year" form="long"/>
+      <date-part name="year" form="long" suffix=" "/>
     </date>
   </macro>
   <macro name="page-short">
