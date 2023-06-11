@@ -651,7 +651,7 @@
               </if>
               <else>
                 <group>
-                  <text value="op. cit."/>
+                  <text font-style="italic" value="op. cit."/>
                   <!--<text value="note" prefix=", " suffix=" "/><text variable="first-reference-note-number"/>-->
                 </group>
               </else>
