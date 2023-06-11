@@ -110,6 +110,17 @@
       </name>
     </names>
   </macro>
+  <macro name="collection">
+    <text variable="collection-title" prefix="coll. «&#160;" suffix="&#160;»"/>
+    <choose>
+      <if is-numeric="collection-number">
+        <text variable="collection-number" prefix=" n°"/>
+      </if>
+      <else>
+        <text variable="collection-number" prefix=" "/>
+      </else>
+    </choose>
+  </macro>
   <macro name="collection-title">
     <text variable="collection-title" prefix="coll. «&#160;" suffix="&#160;»"/>
   </macro>
@@ -140,12 +151,13 @@
     <date variable="issued" font-style="normal" font-weight="normal">
       <date-part name="day" suffix=" "/>
       <date-part name="month" suffix=" "/>
-      <date-part name="year" suffix=" "/>
+      <date-part name="year" />
+      <!--<date-part name="year" suffix=" "/> : espace final de trop-->
     </date>
   </macro>
   <macro name="issued-year">
     <date variable="issued">
-      <date-part name="year" form="long" suffix=" "/>
+      <date-part name="year" form="long"/>
     </date>
   </macro>
   <macro name="page-short">
@@ -176,8 +188,9 @@
       <text variable="genre"/>
       <text variable="number"/>
       <text macro="volume"/>
-      <text macro="collection-title"/>
-      <text macro="collection-number"/>
+      <text macro="collection"/>
+      <!--<text macro="collection-title"/>
+      <text macro="collection-number"/>-->
       <text variable="publisher-place"/>
       <text variable="publisher"/>
       <text macro="issued-year"/>
@@ -194,8 +207,9 @@
       <text variable="genre"/>
       <text variable="number"/>
       <text macro="volume"/>
-      <text macro="collection-title"/>
-      <text macro="collection-number"/>
+      <text macro="collection"/>
+      <!--<text macro="collection-title"/>
+      <text macro="collection-number"/>-->
       <text variable="publisher-place"/>
       <text variable="publisher"/>
       <text macro="issued-year"/>
